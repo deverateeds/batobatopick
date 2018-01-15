@@ -1,0 +1,106 @@
+/*CSS Reset*/
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#scores {
+	background-color: grey;
+}
+#playerScore {
+	border-right: solid 1px white;
+}
+#computerScore {
+	border-left: solid 1px white;
+}
+body {
+    background-image: url("../img/bg.jpg");
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	width: 260px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.container#button {
+	margin-left: 0px;
+}
+
+
+h2#result {
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+@media only screen and (min-width : 768px) {
+
+.btn {
+	font-size: 1.5em;
+}
+
+#player, 
+#computer {
+	font-size: 2em;
+}
+
+button {
+	width: 260px;
+	margin-top: 20px;
+}
+
+#cscore,
+#pscore {
+	font-size: 3em;
+}
+
+.container#button {
+	margin-left: -7px;
+}
+
+
+h2#result {
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+}
+
+
+@media only screen and (min-width : 992px) {
+	.container#button {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 3%;
+}
+}
+
+@media only screen and (min-width : 1200px) {
+
+	.container#button {
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+
+	img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 5%;
+}
+
+}
+
+

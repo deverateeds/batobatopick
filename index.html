@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Bato Bato Pick</title>
+
+  <!-- Imports Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- Imports CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet"> -->
+
+
+</head>
+<body>
+
+<!-- NAV which containes the scores -->
+<nav class="navbar">
+  <div class="row" id="scores">
+    <div class="container text-center">
+      <div class="col-xs-6 text-center" id="playerScore">
+        <h3 id="pscore">0</h3>        
+      </div>
+      <div class="col-xs-6 text-center" id="computerScore">
+        <h3 id="cscore">0</h3>        
+      </div>
+    </div>
+  </div>
+  <div id="labels">
+    <div class="container">
+      <div class="col-xs-6 text-center" id="player">
+        <p>Player</p>
+      </div>
+      <div class="col-xs-6 text-center" id="computer">
+        <p>Computer</p>
+      </div>
+    </div>    
+  </div>
+</nav>
+<!-- Main Content for the Player and Comp Picks -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="container">
+      <div class="col-xs-6  text-center">
+        <img class="img-fluid rounded mx-auto d-block" id="playerpick" src="img/scissors.png">        
+      </div>
+      <div class="col-xs-6  text-center">
+        <img class="img-fluid rounded mx-auto d-block" id="comppick" src="img/scissors.png">        
+      </div>
+    </div>    
+  </div>
+</div>
+<!-- Buttons for picks and play again or Restart -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="text-center">
+      <h2 id="result">Bato-bato pick!!!</h2>
+    </div>
+    <div class="container text-center">
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <button class="playerButton btn btn-primary btn-lg" id="scissors">scissors</button>
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <button class="playerButton btn btn-primary btn-lg" id="paper">paper</button>
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <button class="playerButton btn btn-primary btn-lg" id="rock">rock</button>
+      </div>
+    </div>
+    
+    <div class="container text-center" id="button">
+      <div class="container text-center">
+        <button  id="play" class="btn btn-danger btn-lg">Restart Game</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Imports JQuery -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+  <!-- Imports Bootstrap JS for JavaScript -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- FONT AWESOME LINK -->
+  <!-- <script src="https://use.fontawesome.com/e20396d196.js"></script> -->
+
+  <!-- Imports custom JavaScript -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+
+ </body>
+ </html>
